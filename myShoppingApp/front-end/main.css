@@ -1,0 +1,51 @@
+body{
+	background-image : url("https://image.shutterstock.com/image-vector/smiley-background-vector-illustration-yellow-260nw-1068178034.jpg");
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-size : cover;
+}
+
+input[type="text"] {
+			width : 400px;
+             position: relative;
+             display: flex;
+             margin : 0 auto;
+             padding : 12px;
+             border-radius : 20px
+        }
+
+input[type="password"] {
+			width : 400px;
+             position: relative;
+             display: flex;
+             margin : 0 auto;
+             padding : 12px;
+             border-radius : 20px
+        }
+        
+.h1 {
+    color: azure;
+    text-shadow: black;
+    text-align: center;
+}
+
+.h2 {
+    color: yellow;
+    text-shadow: black;
+    text-align: center;
+}
+
+.button {
+       background-color : yellow;
+			border-radius : 20px;
+			padding : 12px;
+
+			width : 100px;
+             position: relative;
+             display: flex;
+             margin : 0 auto;
+        }
+
+
+
+        

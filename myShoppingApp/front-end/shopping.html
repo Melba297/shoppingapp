@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js" charset="utf-8"></script>
+
+    <title>Shopping Page</title>
+    <style>
+      body {
+        background-image : url("https://image.shutterstock.com/image-vector/sale-discount-background-online-store-600w-455652034.jpg");
+        background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-size : cover;
+      }
+    </style>
+  </head>
+  <body onload="getdata()">
+    <h1>Buy from my app</h1>
+    <h3>Or</h3>
+    <a href="/checkout.html"><button>Checkout your cart</button></a>
+    <div class="container" id="container">
+      <h2>Our Products</h2>
+        <hr>
+    </div>
+  </body>
+  <script src="/js/shop.js" charset="utf-8"></script>
+  <style>
+.container img{
+	width : 200px;
+	height : 200px;
+
+}
+</style>
+</html>
